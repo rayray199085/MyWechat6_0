@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/action_bar_search"
+          android:title="@string/action_bar_search"
+          app:showAsAction="ifRoom|collapseActionView"
+          android:icon="@mipmap/actionbar_search_icon"
+          app:actionViewClass="android.widget.SearchView"/>
+
+    <!--<item android:id="@+id/action_bar_add"-->
+          <!--android:title="@string/action_bar_add"-->
+          <!--android:background="#000000"-->
+          <!--android:icon="@mipmap/actionbar_add_icon"/>-->
+
+    <item android:id="@+id/menu_group_chat"
+          app:showAsAction="never"
+          android:title="@string/menu_group_chat"
+          android:icon="@mipmap/menu_group_chat_icon"/>
+    <item android:id="@+id/menu_new_friend"
+          app:showAsAction="never"
+          android:title="@string/menu_new_friend"
+          android:icon="@mipmap/menu_add_icon"/>
+    <item android:id="@+id/menu_scan"
+          app:showAsAction="never"
+          android:title="@string/menu_scan"
+          android:icon="@mipmap/men_scan_icon"/>
+    <item android:id="@+id/menu_advice"
+          app:showAsAction="never"
+          android:title="@string/menu_advise"
+          android:icon="@mipmap/menu_feedback_icon"/>
+</menu>
